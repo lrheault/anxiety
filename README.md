@@ -33,6 +33,6 @@ A Python script to match the human-coded topic labels used in <a href='http://ww
 
 The anxiety lexicon based on word vectors, including the seed lemmas.
 
-<h3> Coming Soon </h3>
+<h3> Dataset </h3>
 
-Coming soon.  The dataset for the study of anxiety by topic exceeds the space allocated on GitHub for data files, but will be posted on my personal website and linked here soon.
+<a href='http://ludovicrheault.weebly.com/uploads/3/9/4/0/39408253/anxiety-data.tar.gz'>Link to data file and codebook.</a>
