@@ -1,8 +1,22 @@
 <h1> Expressions of Anxiety in Political Texts </h1>
 
-Scripts for the study <a href="http://aclweb.org/anthology/W16-5612">"Expressions of Anxiety in Political Texts."</a>  Please cite as:
+This repo previously contained materials related to the study cited below. 
 
-Rheault, Ludovic. 2016. "Expressions of Anxiety in Political Texts." Proceedings of the 2016 EMNLP Workshop on Natural Language Processing and Computational Social Science.  Austin, Texas: 92-101. 
+I've added contents to include a pedagogical example illustrating how to replicate the methods used in the study, which were aimed at creating a lexicon (a "dictionary") to measure *anxiety* in written texts. Given that NLP libraries have improved rapidly since the publication of the paper, I'm using updated resources for this example.
+
+You can follow the steps using the Python notebook named "example.ipynb." This closely replicates the approach used in the study, but the resulting word scores in the anxiety lexicon may be slightly different when recomputing from scratch. The original version of the lexicon is still available in the archive directory. 
+
+To replicate this example, you may first download the corpus here (the zipped file also contains the output of the GloVe program): 
+
+https://drive.google.com/uc?id=1u-lnejm4bzDm7t3YulSowzLaS26IHLpz
+
+After download, continue from the example.ipynb notebook. 
+
+<h2> About </h2>
+
+The study is called <a href="http://aclweb.org/anthology/W16-5612">"Expressions of Anxiety in Political Texts."</a>  Please cite as:
+
+Rheault, Ludovic. 2016. "Expressions of Anxiety in Political Texts." Proceedings of the 2016 EMNLP Workshop on Natural Language Processing and Computational Social Science. Austin, Texas: 92-101. 
 
 <h3> BibTex </h3>
 @InProceedings{RHE16, <br>
@@ -17,9 +31,9 @@ Rheault, Ludovic. 2016. "Expressions of Anxiety in Political Texts." Proceedings
   url       = {http://aclweb.org/anthology/W16-5612}<br>
 }<br>
 
-The digitized Canadian Hansard corpus is released publicly in its entirety on the <a href='www.lipad.ca'>www.lipad.ca website</a>. 
+The digitized Canadian Hansard corpus is released publicly in its entirety on the <a href='www.lipad.ca'>www.lipad.ca</a> website. 
 
-<h2> Description of the Files </h2>
+<h2> Description of the files in archive/ directory </h2>
 
 <h3> anxiety-classifier.py </h3>
 
